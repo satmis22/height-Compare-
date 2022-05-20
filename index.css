@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.8;
+    letter-spacing: 0.047em;
+    font-weight: 800;
+}
+
+#Content {
+    display: table;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#Show_Sizes,
+#Set_Sizes {
+    display: table-cell;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#Show_Sizes {
+    text-align: center;
+    vertical-align: bottom
+}
+
+#Set_Sizes {
+    vertical-align: top;
+}
+
+input[type='text'] {
+    width: 3em;
+}
+
+input[type='button'] {
+    width: 100%;
+    font-size: 150%;
+}
+
+#Compare_URL {
+    width: 30em;
+}
+
+#Ko-Fi img {
+    height: 50px;
+}

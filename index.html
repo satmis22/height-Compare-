@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-CA" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>Comparing Heights</title>
+		<meta name="keywords" content="height, size, comparison, compare" />
+		<link type="text/css" rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<h1>Comparing Heights</h1>
+		<div id="Content">
+			<div id="Show_Sizes">
+					<img src="manoutline.jpg" alt="human outline" id="BaseSize">
+					<img src="manoutline.jpg" alt="human outline" id="CompSize">
+			</div>
+			
+			<form id="Set_Sizes" action="">
+				<fieldset><legend>Left Figure</legend><ul>
+					<li><label><input type="text" name="base_ft" value="6"> Feet</label></li>
+					<li><label><input type="text" name="base_in" value="0"> Inches</label></li>
+					<li>
+						<label><input type="radio" name="base_gn" value="man" checked="checked">&male;</label>
+						<label><input type="radio" name="base_gn" value="woman">&female;</label>
+						Gender
+					</li>
+				</ul></fieldset>
+				<fieldset><legend>Right Figure</legend><ul>
+					<li><label><input type="text" name="comp_ft" value="6"> Feet</label></li>
+					<li><label><input type="text" name="comp_in" value="0"> Inches</label></li>
+					<li>
+						<label><input type="radio" name="comp_gn" value="man" checked="checked">&male;</label>
+						<label><input type="radio" name="comp_gn" value="woman">&female;</label>
+						Gender
+					</li>
+				</ul></fieldset>
+				<input type='button' value="Compare!" name="compare">
+				<label>Link to Comparison: <input type="text" name="url" id="Compare_URL"></label>
+				<script type="text/javascript" src="index.js">
+				</script>
+			</form>
+		</div>
+		<p>For heights in centimeters, set <q>Feet</q> to 0 and <q>Inches</q> to the measurement in centimeters.  Don't mix the two systems, you'll get a wrong result.</p>
+		<p><a href="./compsizes.xhtml">A page allowing the comparison of up to six figures is now available.</a>  Note that this is an <abbr title="eXtensible HyperText Markup Language Plus Scalar Vector Graphics">XHTML+SVG</abbr> page.</p>
+		<p><a href="../../oddsends.php">Back to MrInitialMan.com</a></p>
+		<p id="Ko-Fi"><a href="https://ko-fi.com/G2G010NBT"><img src="https://az743702.vo.msecnd.net/cdn/kofi1.png?v=2" alt="Buy Me a Coffee at ko-fi.com"></a></p>
+
+	</body>
+</html>
